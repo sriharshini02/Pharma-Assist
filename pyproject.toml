@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pharma assist"
+version = "0.1.0"
+description = ""
+authors = ["sriharshini02 <sriharshinibhupathiraju@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-generativeai = "^0.8.4"
+pillow = "^11.1.0"
+python-dotenv = "^1.0.1"
+opencv-python = "^4.11.0.86"
+numpy = "^2.2.3"
+mysql-connector = "^2.2.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
